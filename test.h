@@ -1,10 +1,8 @@
 #ifndef TEST_H
 #define TEST_H
 
-// Testing user functions
-void test_abs_pass(int input_value, int expected_value);
-
-void test_abs_fail(int input_value, int expected_value);
+// Write prototypes for test functions here
+// e.g. void test_foo(int expected, int actual);
 
 void run_tests();
 
