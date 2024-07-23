@@ -6,7 +6,10 @@
 // Test fails if argument is false.
 void assert_is_true(bool a)
 {
-        if (!a) {
+        if (a) {
+                printf("test passed.\n");
+        }
+        else {
                 printf("test failed\n");
         }
 }
@@ -14,7 +17,10 @@ void assert_is_true(bool a)
 // Test fails if argument is true.
 void assert_is_false(bool a)
 {
-        if (a) {
+        if (!a) {
+                printf("test passed.\n");
+        }
+        else {
                 printf("test failed\n");
         }
 }

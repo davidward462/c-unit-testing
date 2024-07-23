@@ -13,6 +13,8 @@ void run_tests()
         printf("running tests...\n");
 
         // call test functions here
+        assert_is_true(true);
+        assert_is_false(false);
 
         printf("complete.\n");
 }
